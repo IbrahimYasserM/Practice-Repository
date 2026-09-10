@@ -15,7 +15,7 @@ By the end of this task you will have:
 ## Where to start
 
 1. Read [`CONTRIBUTING.md`](./CONTRIBUTING.md) fully before doing anything else.
-2. Open [`docs/TASK.md`](./docs/TASK.md) — this is your assignment (it works like a GitHub Issue).
+2. Check the **Issues tab** for the task assigned to you (labeled `good-first-task`) — it links to [`docs/TASK.md`](./docs/TASK.md) with the full instructions.
 3. Answer questions as you go in [`QUESTIONS.md`](./QUESTIONS.md).
 4. When you're done, open a PR using the template in [`.github/PULL_REQUEST_TEMPLATE.md`](./.github/PULL_REQUEST_TEMPLATE.md).
 
