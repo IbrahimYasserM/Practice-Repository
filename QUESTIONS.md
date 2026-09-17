@@ -14,17 +14,34 @@ revision.
 **1. What branch naming convention does this project use? Give an example
 branch name you plan to use.**
 
-> Your answer here.
+>
+```
+<type>/<short-description>
+```
+Example:
+```
+docs/add-my-name-Mariam
+```
 
 **2. What commit message format is required? Write the exact commit message
 you plan to use for your change.**
 
-> Your answer here.
+> 
+```
+<type>: <short summary>
+
+<optional longer description>
+```
+
+Example:
+```
+docs: add my name(Mariam) to contributors list
+```
 
 **3. Does this project expect a linked issue before opening a PR, or is a PR
 description enough?**
 
-> Your answer here.
+> it needs a linked issue.
 
 ---
 
@@ -33,7 +50,15 @@ description enough?**
 **4. Paste the output of `git remote -v` from your local clone. Which remote
 is `origin` and which is `upstream`, and why does that distinction matter?**
 
-> Your answer here.
+> origin points to my personal fork, while
+upstream is the repo that i forked from. The distinction matters because this setup protects the main setup from my work.it seperates where i get the updates from my workspace.
+```
+git remote -v
+    origin  https://github.com/mariam1617/Practice-Repository.git (fetch)
+    origin  https://github.com/mariam1617/Practice-Repository.git (push)
+    upstream        https://github.com/IbrahimYasserM/Practice-Repository.git (fetch)
+    upstream        https://github.com/IbrahimYasserM/Practice-Repository.git (push)
+```
 
 ---
 
@@ -42,7 +67,12 @@ is `origin` and which is `upstream`, and why does that distinction matter?**
 **5. Paste the output of `git log --oneline -3`. Do your commit message(s)
 follow the convention from `CONTRIBUTING.md`?**
 
-> Your answer here.
+> yes
+```
+b74c706 (HEAD -> docs/add-my-name-Mariam) docs: fixed merge conflict with mohammed nasser name on CONTRIBUTRS.md
+a9f7a99 docs: add my name to contributors list
+983499c (upstream/conflict-practice) Add Mohammed Nasser to CONTRIBUTORS.md
+```
 
 ---
 
@@ -50,11 +80,11 @@ follow the convention from `CONTRIBUTING.md`?**
 
 **6. What caused the conflict? Which file and lines were involved?**
 
-> Your answer here.
+> there was an added line in the same place by two different contributors in the CONTRIBUTOR.md
 
 **7. How did you resolve it — what did you keep, remove, or combine, and why?**
 
-> Your answer here.
+> both additions seemed valid, so i accepted both.
 
 ---
 
