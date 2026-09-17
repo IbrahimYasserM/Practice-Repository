@@ -14,22 +14,15 @@ revision.
 **1. What branch naming convention does this project use? Give an example
 branch name you plan to use.**
 
->
-```
-<type>/<short-description>
-```
-Example:
-```
-docs/add-my-name-Mariam
-```
+> ``` <type>/<short-description> ```
+Example: ```docs/add-my-name-Mariam ```
+
 
 **2. What commit message format is required? Write the exact commit message
 you plan to use for your change.**
 
-> 
 ```
 <type>: <short summary>
-
 <optional longer description>
 ```
 
@@ -93,7 +86,9 @@ a9f7a99 docs: add my name to contributors list
 **8. Paste your PR link. How many commits and how many files changed does
 your PR show?**
 
-> Your answer here.
+> https://github.com/IbrahimYasserM/Practice-Repository/pull/7
+> 4 commits
+> 2 changed files
 
 ---
 
@@ -102,10 +97,11 @@ your PR show?**
 **9. What's one thing about this workflow that surprised you, confused you,
 or felt different from what you expected going in?**
 
-> Your answer here.
+> i didnt know you needed to fork first. if i was working in a project of 5 to 6 members would you still recommend people to fork or would branched be enough? is that even the right way to think of about it?
+> i really like the standardization of the commit messages and branches that was neat.
 
 **10. If a teammate asked you to explain the difference between `fork`,
 `clone`, `origin`, and `upstream` in one or two sentences each, what would
 you say?**
 
-> Your answer here.
+> Fork is personal copy of someone else's repository that you host on your personal account. It allows for safe experimentaion without affecting the original repo. Clone is downloading a repository from GitHub to your local computer. It creates a local working directory. Origin is your own remote repository (personal fork).Upstream original repository that you forked from. 
