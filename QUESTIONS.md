@@ -14,17 +14,19 @@ revision.
 **1. What branch naming convention does this project use? Give an example
 branch name you plan to use.**
 
-> Your answer here.
+> this project use <type>:<short-description> pattern 
+> feature/logs 
 
 **2. What commit message format is required? Write the exact commit message
 you plan to use for your change.**
 
-> Your answer here.
+> <type>:<short-summary>
+> feature:adding logs manipulation
 
 **3. Does this project expect a linked issue before opening a PR, or is a PR
 description enough?**
 
-> Your answer here.
+> yes this project expect a linked issue
 
 ---
 
@@ -33,8 +35,13 @@ description enough?**
 **4. Paste the output of `git remote -v` from your local clone. Which remote
 is `origin` and which is `upstream`, and why does that distinction matter?**
 
-> Your answer here.
+> origin  https://github.com/mohmedbakr1911/Practice-Repository.git (fetch)
+> origin  https://github.com/mohmedbakr1911/Practice-Repository.git (push)
+> upstream        https://github.com/IbrahimYasserM/Practice-Repository.git (fetch)
+> upstream        https://github.com/IbrahimYasserM/Practice-Repository.git (push)
 
+> origin is my forked repo and upstream is the original repo 
+>this distinction matter because it help me as a contributor to keep updated with the original repo 
 ---
 
 ## Part 3 — After making your change
@@ -42,7 +49,11 @@ is `origin` and which is `upstream`, and why does that distinction matter?**
 **5. Paste the output of `git log --oneline -3`. Do your commit message(s)
 follow the convention from `CONTRIBUTING.md`?**
 
-> Your answer here.
+> 92a64cc (HEAD -> feature/logs, origin/feature/logs) docs:answering questions ending with part3
+> db776db fix contributers task
+> 8df8f17 contributors task
+
+> only the last commit following the convention form.
 
 ---
 
@@ -50,11 +61,11 @@ follow the convention from `CONTRIBUTING.md`?**
 
 **6. What caused the conflict? Which file and lines were involved?**
 
-> Your answer here.
+> the conflict happend because there is 2 changes at the same line from two different contributers line 12 file "contributers.md".
 
 **7. How did you resolve it — what did you keep, remove, or combine, and why?**
 
-> Your answer here.
+> i resolved it by accepting both changes i combined the two changes together and didn't remove any of them
 
 ---
 
@@ -63,7 +74,9 @@ follow the convention from `CONTRIBUTING.md`?**
 **8. Paste your PR link. How many commits and how many files changed does
 your PR show?**
 
-> Your answer here.
+> https://github.com/IbrahimYasserM/Practice-Repository/compare/main...mohmedbakr1911:Practice-Repository:feature/logs?expand=1
+
+> 2 changed files and 6 commits
 
 ---
 
@@ -72,10 +85,16 @@ your PR show?**
 **9. What's one thing about this workflow that surprised you, confused you,
 or felt different from what you expected going in?**
 
-> Your answer here.
+> the flow is not that complix as i imagened but what confused me was the clear understanding of what i supposed to to do 
 
 **10. If a teammate asked you to explain the difference between `fork`,
 `clone`, `origin`, and `upstream` in one or two sentences each, what would
 you say?**
 
-> Your answer here.
+> fork -> the fork is a copy of a repo at a specific moment abling you to clone it at your local machine and start contributing 
+
+> clone -> downloading the project at our local machine 
+
+> origin -> the original repo (our forked repository)
+
+> upstream -> a variable for the remote repo set as the base repo
