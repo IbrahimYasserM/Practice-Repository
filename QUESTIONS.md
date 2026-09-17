@@ -14,17 +14,17 @@ revision.
 **1. What branch naming convention does this project use? Give an example
 branch name you plan to use.**
 
-> Your answer here.
+> docs/add-omar
 
 **2. What commit message format is required? Write the exact commit message
 you plan to use for your change.**
 
-> Your answer here.
+> docs:add omar to contributer list
 
 **3. Does this project expect a linked issue before opening a PR, or is a PR
 description enough?**
 
-> Your answer here.
+> The project expects a linked issue/task referenced inside the PR description, as stated in the PR submission guidelines ("Link the related task/issue in your PR description").
 
 ---
 
@@ -33,7 +33,12 @@ description enough?**
 **4. Paste the output of `git remote -v` from your local clone. Which remote
 is `origin` and which is `upstream`, and why does that distinction matter?**
 
-> Your answer here.
+> origin	https://github.com/omar-5584/Practice-Repository.git (fetch)
+origin	https://github.com/omar-5584/Practice-Repository.git (push)
+upstream	https://github.com/IbrahimYasserM/Practice-Repository.git (fetch)
+upstream	https://github.com/IbrahimYasserM/Practice-Repository.git (push)
+
+matters because the origin is my fork in my profile but the upstream is the main one 
 
 ---
 
