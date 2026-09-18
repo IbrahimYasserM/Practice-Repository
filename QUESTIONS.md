@@ -14,7 +14,11 @@ revision.
 **1. What branch naming convention does this project use? Give an example
 branch name you plan to use.**
 
+<<<<<<< HEAD
 > docs/add-omar
+=======
+> docs/add omar to file
+>>>>>>> main
 
 **2. What commit message format is required? Write the exact commit message
 you plan to use for your change.**
