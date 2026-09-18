@@ -14,18 +14,17 @@ revision.
 **1. What branch naming convention does this project use? Give an example
 branch name you plan to use.**
 
-> Your answer here.
+Uses <type>/<short-description>. I plan to use docs/add-contributor-info.
 
 **2. What commit message format is required? Write the exact commit message
 you plan to use for your change.**
 
-> Your answer here.
+Follows Conventional Commits format (<type>: <short summary>). I plan to use docs: add name to contributors list.
 
 **3. Does this project expect a linked issue before opening a PR, or is a PR
 description enough?**
 
-> Your answer here.
-
+It expects a linked issue referenced in the PR description along with a completed PR template.
 ---
 
 ## Part 2 — After forking and cloning
@@ -33,7 +32,12 @@ description enough?**
 **4. Paste the output of `git remote -v` from your local clone. Which remote
 is `origin` and which is `upstream`, and why does that distinction matter?**
 
-> Your answer here.
+origin  https://github.com/hisham811/Practice-Repository.git (fetch)
+origin  https://github.com/hisham811/Practice-Repository.git (push)
+upstream        https://github.com/IbrahimYasserM/Practice-Repository.git (practice) (fetch)
+upstream        https://github.com/IbrahimYasserM/Practice-Repository.git (push)
+
+`origin` points to my personal forked repository where I push my changes, while `upstream` points to the original project repository. This distinction is crucial because it allows me to keep my local repo updated with the main project while pushing new features to my own fork without directly affecting the original codebase.
 
 ---
 
