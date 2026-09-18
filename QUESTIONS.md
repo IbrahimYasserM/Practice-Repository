@@ -14,18 +14,22 @@ revision.
 **1. What branch naming convention does this project use? Give an example
 branch name you plan to use.**
 
-> Your answer here.
+> <type>/<short-description> for branch names
+ The allowed types are feature, fix, docs, and chore 
+ I plan to use docs/add-rawan.
 
 **2. What commit message format is required? Write the exact commit message
 you plan to use for your change.**
 
-> Your answer here.
+> The project requires Conventional Commits using the format 
+<type>: <short summary> 
+<optional longer description>
+My planned commit message is docs: add Rawan to contributors list
 
 **3. Does this project expect a linked issue before opening a PR, or is a PR
 description enough?**
 
-> Your answer here.
-
+> The related issue must be linked to the PR, a description alone isn't enough
 ---
 
 ## Part 2 — After forking and cloning
@@ -33,7 +37,14 @@ description enough?**
 **4. Paste the output of `git remote -v` from your local clone. Which remote
 is `origin` and which is `upstream`, and why does that distinction matter?**
 
-> Your answer here.
+> origin  https://github.com/rawan187/Practice-Repository.git (fetch)
+origin  https://github.com/rawan187/Practice-Repository.git (push)
+upstream        https://github.com/IbrahimYasserM/Practice-Repository.git (fetch
+)
+upstream        https://github.com/IbrahimYasserM/Practice-Repository.git (push)
+
+origin points to my fork, while upstream points to the original repository
+This difference important because I push my changes to origin, while I can fetch or merge changes from the original repository through upstream.
 
 ---
 
