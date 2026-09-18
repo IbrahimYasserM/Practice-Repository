@@ -46,7 +46,11 @@ upstream        https://github.com/IbrahimYasserM/Practice-Repository.git (push)
 **5. Paste the output of `git log --oneline -3`. Do your commit message(s)
 follow the convention from `CONTRIBUTING.md`?**
 
-> Your answer here.
+be406f7 docs: add contributor details and reflection answers
+3b30f00 Clarify task labeling in README
+f5ecf54 Revise task assignment instructions in README
+
+Yes, my commit message strictly follows the Conventional Commits format required by CONTRIBUTING.md using the "docs:" prefix.
 
 ---
 
@@ -54,11 +58,11 @@ follow the convention from `CONTRIBUTING.md`?**
 
 **6. What caused the conflict? Which file and lines were involved?**
 
-> Your answer here.
+The conflict occurred in CONTRIBUTORS.md between lines 12 and 16. Both my branch (docs/add-contributor-info) and upstream/conflict-practice added a new line at the exact same location after Ibrahim Yasser.   
 
 **7. How did you resolve it — what did you keep, remove, or combine, and why?**
 
-> Your answer here.
+I resolved it by keeping both additions and placing them on separate lines in alphabetical order, then removed all Git conflict markers to keep the file valid.   
 
 ---
 
