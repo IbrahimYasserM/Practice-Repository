@@ -1,0 +1,46 @@
+Meeting Minutes: Open Source & Contribution Session
+
+1. Open Source Basics
+- What is Open Source?
+  - Open Source software is publicly available and can be improved and maintained by contributors over time.
+  - Some Open Source projects are large, production-ready projects used by millions of people.
+
+
+2. Why Contribute to Open Source?
+- CV & Interviews
+  
+  - Open Source contributions can add strong real-world experience to your CV.
+  - They show that you can work on real projects and deal with large and complex codebases.
+  - They also give you real examples to talk about during interviews.
+
+- Learning & Skills
+  
+  - You learn how to understand and navigate large codebases.
+  - You get familiar with professional development workflows and tools used in the industry.
+
+- Networking
+  
+  - Contributing to Open Source gives you the chance to work and communicate with developers from different countries.
+
+3. Open Source Programs
+- Google Summer of Code (GSoC)
+  
+  - A global program where contributors work on Open Source projects with the help of experienced mentors.
+  - It also provides a stipend during the project.
+
+- LFX Mentorship
+  
+  - A remote mentorship program focused on projects from the Linux Foundation and CNCF.
+  - Contributors work directly with maintainers and experienced contributors.
+
+- Other Opportunities
+  
+  - Igalia and European Summer of Code were also mentioned as other Open Source opportunities.
+
+
+4. Open Source Mentorship
+What the Mentors Will Provide
+
+1. Mentor Support – Guidance and help when working on Open Source projects.
+2. Development Guidance – Support through the different stages of contributing to a project.
+3. Progress Tracking – Following up on contributors' progress and providing feedback.

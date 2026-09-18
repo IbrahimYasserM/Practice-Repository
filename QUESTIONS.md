@@ -80,7 +80,8 @@ I kept Mohammed Nasser from the upstream branch and Rawan Ahmed from my branch, 
 your PR show?**
 
 > https://github.com/IbrahimYasserM/Practice-Repository/pull/15
- 4 commits, 2 files changed
+ 4 commits, 2 files changed (after do pr)
+ 6 commits, 3 files changed (at end of task)
 
 ---
 
@@ -89,13 +90,17 @@ your PR show?**
 **9. What's one thing about this workflow that surprised you, confused you,
 or felt different from what you expected going in?**
 
-> nothing ,only this first time to make pr request so was abit confused
+> It was my first time making a PR, so I was a little confused about the PR process at first
 
 **10. If a teammate asked you to explain the difference between `fork`,
 `clone`, `origin`, and `upstream` in one or two sentences each, what would
 you say?**
 
-> Fork: Creates a copy of someone else's GitHub repository under your own GitHub account.
-> Clone: Downloads a repository from GitHub to your local computer so you can work on it.
-> Origin: The default name Git gives to your own GitHub repository (your fork) on your local machine.
-> Upstream: The original main repository created by the owner, where you send your PRs and fetch updates.
+> Fork: Makes a copy of a GitHub repository under my own account.
+
+> Clone: Downloads the repository to my computer so I can work on it.
+
+> Origin: Points to my fork, where I push my changes.
+
+> Upstream: Points to the original repository, where I get updates from.
+
