@@ -79,7 +79,8 @@ I kept Mohammed Nasser from the upstream branch and Rawan Ahmed from my branch, 
 **8. Paste your PR link. How many commits and how many files changed does
 your PR show?**
 
-> Your answer here.
+> https://github.com/IbrahimYasserM/Practice-Repository/pull/15
+ 4 commits, 2 files changed
 
 ---
 
@@ -88,10 +89,13 @@ your PR show?**
 **9. What's one thing about this workflow that surprised you, confused you,
 or felt different from what you expected going in?**
 
-> Your answer here.
+> nothing ,only this first time to make pr request so was abit confused
 
 **10. If a teammate asked you to explain the difference between `fork`,
 `clone`, `origin`, and `upstream` in one or two sentences each, what would
 you say?**
 
-> Your answer here.
+> Fork: Creates a copy of someone else's GitHub repository under your own GitHub account.
+> Clone: Downloads a repository from GitHub to your local computer so you can work on it.
+> Origin: The default name Git gives to your own GitHub repository (your fork) on your local machine.
+> Upstream: The original main repository created by the owner, where you send your PRs and fetch updates.
