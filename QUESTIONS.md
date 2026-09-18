@@ -14,17 +14,21 @@ revision.
 **1. What branch naming convention does this project use? Give an example
 branch name you plan to use.**
 
-> Your answer here.
+<<<<<<< HEAD
+> docs/add-omar
+=======
+> docs/add omar to file
+>>>>>>> main
 
 **2. What commit message format is required? Write the exact commit message
 you plan to use for your change.**
 
-> Your answer here.
+> docs:add omar to contributer list
 
 **3. Does this project expect a linked issue before opening a PR, or is a PR
 description enough?**
 
-> Your answer here.
+> The project expects a linked issue/task referenced inside the PR description, as stated in the PR submission guidelines ("Link the related task/issue in your PR description").
 
 ---
 
@@ -33,7 +37,12 @@ description enough?**
 **4. Paste the output of `git remote -v` from your local clone. Which remote
 is `origin` and which is `upstream`, and why does that distinction matter?**
 
-> Your answer here.
+> origin	https://github.com/omar-5584/Practice-Repository.git (fetch)
+origin	https://github.com/omar-5584/Practice-Repository.git (push)
+upstream	https://github.com/IbrahimYasserM/Practice-Repository.git (fetch)
+upstream	https://github.com/IbrahimYasserM/Practice-Repository.git (push)
+
+matters because the origin is my fork in my profile but the upstream is the main one 
 
 ---
 
@@ -42,7 +51,10 @@ is `origin` and which is `upstream`, and why does that distinction matter?**
 **5. Paste the output of `git log --oneline -3`. Do your commit message(s)
 follow the convention from `CONTRIBUTING.md`?**
 
-> Your answer here.
+> 847a67a (HEAD -> docs/add-my-name) docs / add my name and answers the first 3 parts
+3b30f00 (origin/main, origin/HEAD, main) Clarify task labeling in README
+f5ecf54 Revise task assignment instructions in README
+
 
 ---
 
