@@ -71,7 +71,7 @@ I resolved it by keeping both additions and placing them on separate lines in al
 **8. Paste your PR link. How many commits and how many files changed does
 your PR show?**
 
-> Your answer here.
+https://github.com/IbrahimYasserM/Practice-Repository/pull/19
 
 ---
 
@@ -80,10 +80,13 @@ your PR show?**
 **9. What's one thing about this workflow that surprised you, confused you,
 or felt different from what you expected going in?**
 
-> Your answer here.
+Nothing, the outputs that comes I expect it
 
 **10. If a teammate asked you to explain the difference between `fork`,
 `clone`, `origin`, and `upstream` in one or two sentences each, what would
 you say?**
 
-> Your answer here.
+-fork is to copy a repo of someone and get it in my account without changing his repo
+-clone is to download the repo on my machine to work on it locally
+-origin it's the project that I forked on my github account
+-UpStream it's the main project on the project maker account
