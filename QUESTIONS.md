@@ -47,7 +47,10 @@ matters because the origin is my fork in my profile but the upstream is the main
 **5. Paste the output of `git log --oneline -3`. Do your commit message(s)
 follow the convention from `CONTRIBUTING.md`?**
 
-> Your answer here.
+> 847a67a (HEAD -> docs/add-my-name) docs / add my name and answers the first 3 parts
+3b30f00 (origin/main, origin/HEAD, main) Clarify task labeling in README
+f5ecf54 Revise task assignment instructions in README
+
 
 ---
 
