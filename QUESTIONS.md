@@ -64,11 +64,13 @@ f5ecf54 Revise task assignment instructions in README
 
 **6. What caused the conflict? Which file and lines were involved?**
 
-> Your answer here.
+> Both branches modified the same part of CONTRIBUTORS.md. 
+My branch added Rawan Ahmed, while upstream/conflict-practice added Mohammed Nasser in the same location
 
 **7. How did you resolve it — what did you keep, remove, or combine, and why?**
 
-> Your answer here.
+> I removed the conflict markers and kept both additions. 
+I kept Mohammed Nasser from the upstream branch and Rawan Ahmed from my branch, then placed them in alphabetical order by first name 
 
 ---
 
