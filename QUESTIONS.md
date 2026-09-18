@@ -53,7 +53,10 @@ This difference important because I push my changes to origin, while I can fetch
 **5. Paste the output of `git log --oneline -3`. Do your commit message(s)
 follow the convention from `CONTRIBUTING.md`?**
 
-> Your answer here.
+> 97aebb8 (HEAD -> docs/add-rawan) docs: add Rawan to contributors list
+3b30f00 (origin/main, origin/HEAD, main) Clarify task labeling in README
+f5ecf54 Revise task assignment instructions in README
+
 
 ---
 
