@@ -14,18 +14,22 @@ revision.
 **1. What branch naming convention does this project use? Give an example
 branch name you plan to use.**
 
-> Your answer here.
+> <type>/<short-description> for branch names
+ The allowed types are feature, fix, docs, and chore 
+ I plan to use docs/add-rawan.
 
 **2. What commit message format is required? Write the exact commit message
 you plan to use for your change.**
 
-> Your answer here.
+> The project requires Conventional Commits using the format 
+<type>: <short summary> 
+<optional longer description>
+My planned commit message is docs: add Rawan to contributors list
 
 **3. Does this project expect a linked issue before opening a PR, or is a PR
 description enough?**
 
-> Your answer here.
-
+> The related issue must be linked to the PR, a description alone isn't enough
 ---
 
 ## Part 2 — After forking and cloning
@@ -33,7 +37,14 @@ description enough?**
 **4. Paste the output of `git remote -v` from your local clone. Which remote
 is `origin` and which is `upstream`, and why does that distinction matter?**
 
-> Your answer here.
+> origin  https://github.com/rawan187/Practice-Repository.git (fetch)
+origin  https://github.com/rawan187/Practice-Repository.git (push)
+upstream        https://github.com/IbrahimYasserM/Practice-Repository.git (fetch
+)
+upstream        https://github.com/IbrahimYasserM/Practice-Repository.git (push)
+
+origin points to my fork, while upstream points to the original repository
+This difference important because I push my changes to origin, while I can fetch or merge changes from the original repository through upstream.
 
 ---
 
@@ -42,7 +53,10 @@ is `origin` and which is `upstream`, and why does that distinction matter?**
 **5. Paste the output of `git log --oneline -3`. Do your commit message(s)
 follow the convention from `CONTRIBUTING.md`?**
 
-> Your answer here.
+> 97aebb8 (HEAD -> docs/add-rawan) docs: add Rawan to contributors list
+3b30f00 (origin/main, origin/HEAD, main) Clarify task labeling in README
+f5ecf54 Revise task assignment instructions in README
+
 
 ---
 
@@ -50,11 +64,13 @@ follow the convention from `CONTRIBUTING.md`?**
 
 **6. What caused the conflict? Which file and lines were involved?**
 
-> Your answer here.
+> Both branches modified the same part of CONTRIBUTORS.md. 
+My branch added Rawan Ahmed, while upstream/conflict-practice added Mohammed Nasser in the same location
 
 **7. How did you resolve it — what did you keep, remove, or combine, and why?**
 
-> Your answer here.
+> I removed the conflict markers and kept both additions. 
+I kept Mohammed Nasser from the upstream branch and Rawan Ahmed from my branch, then placed them in alphabetical order by first name 
 
 ---
 
@@ -63,7 +79,9 @@ follow the convention from `CONTRIBUTING.md`?**
 **8. Paste your PR link. How many commits and how many files changed does
 your PR show?**
 
-> Your answer here.
+> https://github.com/IbrahimYasserM/Practice-Repository/pull/15
+ 4 commits, 2 files changed (after do pr)
+ 6 commits, 3 files changed (at end of task)
 
 ---
 
@@ -72,10 +90,17 @@ your PR show?**
 **9. What's one thing about this workflow that surprised you, confused you,
 or felt different from what you expected going in?**
 
-> Your answer here.
+> It was my first time making a PR, so I was a little confused about the PR process at first
 
 **10. If a teammate asked you to explain the difference between `fork`,
 `clone`, `origin`, and `upstream` in one or two sentences each, what would
 you say?**
 
-> Your answer here.
+> Fork: Makes a copy of a GitHub repository under my own account.
+
+> Clone: Downloads the repository to my computer so I can work on it.
+
+> Origin: Points to my fork, where I push my changes.
+
+> Upstream: Points to the original repository, where I get updates from.
+
