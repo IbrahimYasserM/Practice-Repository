@@ -72,8 +72,8 @@ follow the convention from `CONTRIBUTING.md`?**
 
 **8. Paste your PR link. How many commits and how many files changed does
 your PR show?**
-
-> Your answer here.
+>https://github.com/IbrahimYasserM/Practice-Repository/compare/main...mathew-emad:Practice-Repository:main?expand=1
+it shows 4 commits and 2 files changed 
 
 ---
 
@@ -82,10 +82,13 @@ your PR show?**
 **9. What's one thing about this workflow that surprised you, confused you,
 or felt different from what you expected going in?**
 
->beacause i didn't implement enough i was stuck trying to merge the two branches only to realise that i didn't pull the needed branch from upstream
+>beacause i didn't implement enough i was stuck trying to merge the two branches to cause the conflict only to realise that i didn't pull the needed branch from upstream
 
 **10. If a teammate asked you to explain the difference between `fork`,
 `clone`, `origin`, and `upstream` in one or two sentences each, what would
 you say?**
 
-> Your answer here.
+>fork is taking a copy of someone's repostiory into your own repository to change and make a request to merge the new features.
+clone is cloning someone's repository into your own device
+origin is the default naming for a remote and is the remote name used when you clone a reopsitory.
+upstream is a branch from remote reopsitory equivalent to your local branch in the device , it is required to have an upstream branch when you have changes in the local repository branch.
