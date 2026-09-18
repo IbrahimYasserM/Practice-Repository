@@ -48,3 +48,6 @@ docs: add name to contributors list
 ## Code of conduct
 Be respectful, patient, and kind — the same standard expected on any real
 open source project.
+
+## Omar Ahmed
+- Fun Fact: Steve Jobs is the Founder of Pixar Animation Studios. He is the main brain behind the great films we saw in our childhood.
