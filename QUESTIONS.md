@@ -14,17 +14,19 @@ revision.
 **1. What branch naming convention does this project use? Give an example
 branch name you plan to use.**
 
-> Your answer here.
+> <type>/<word1>-<word2>-<word3>-....etc
+Example : feature/adding-payment-feature
 
 **2. What commit message format is required? Write the exact commit message
 you plan to use for your change.**
 
-> Your answer here.
+> <type>: <small message>
+example : fix: unvalid card bug is fixed
 
 **3. Does this project expect a linked issue before opening a PR, or is a PR
 description enough?**
 
-> Your answer here.
+> I think it won't happen any issues , maybe there will be a merge conflict if we decided to merge every contributors markdown files because of different names
 
 ---
 
@@ -33,7 +35,12 @@ description enough?**
 **4. Paste the output of `git remote -v` from your local clone. Which remote
 is `origin` and which is `upstream`, and why does that distinction matter?**
 
-> Your answer here.
+> origin  https://github.com/mathew-emad/Practice-Repository.git (fetch)
+origin  https://github.com/mathew-emad/Practice-Repository.git (push)
+upstream        https://github.com/IbrahimYasserM/Practice-Repository.git (fetch)
+upstream        https://github.com/IbrahimYasserM/Practice-Repository.git (push)
+
+>it matters as from upstream we take the required files to edit it and the origin has the final result 
 
 ---
 
@@ -42,7 +49,10 @@ is `origin` and which is `upstream`, and why does that distinction matter?**
 **5. Paste the output of `git log --oneline -3`. Do your commit message(s)
 follow the convention from `CONTRIBUTING.md`?**
 
-> Your answer here.
+> 9003c74 (HEAD -> docs/adding-my-name) docs : survived the merge conflict
+45990e7 docs: adding my name to the markdown file
+983499c (upstream/conflict-practice, origin/conflict-practice) Add Mohammed Nasser to CONTRIBUTORS.md
+> i think it follows them
 
 ---
 
@@ -50,11 +60,11 @@ follow the convention from `CONTRIBUTING.md`?**
 
 **6. What caused the conflict? Which file and lines were involved?**
 
-> Your answer here.
+> what caused the conflict is that my branch (docs/adding-my-name) has this line - Matthew Emad - mathew-emad , and the other branch (conflict-practice) has this line - Mohammed Nasser — MohammedNaser28
 
 **7. How did you resolve it — what did you keep, remove, or combine, and why?**
 
-> Your answer here.
+> by keeping the line in my own branch and keeping the line from (conflict-practice) branch , the only thing removed were ==,>>,<< , and the other things that showed in the coflict
 
 ---
 
@@ -62,8 +72,8 @@ follow the convention from `CONTRIBUTING.md`?**
 
 **8. Paste your PR link. How many commits and how many files changed does
 your PR show?**
-
-> Your answer here.
+>https://github.com/IbrahimYasserM/Practice-Repository/compare/main...mathew-emad:Practice-Repository:main?expand=1
+it shows 4 commits and 2 files changed 
 
 ---
 
@@ -72,10 +82,13 @@ your PR show?**
 **9. What's one thing about this workflow that surprised you, confused you,
 or felt different from what you expected going in?**
 
-> Your answer here.
+>beacause i didn't implement enough i was stuck trying to merge the two branches to cause the conflict only to realise that i didn't pull the needed branch from upstream
 
 **10. If a teammate asked you to explain the difference between `fork`,
 `clone`, `origin`, and `upstream` in one or two sentences each, what would
 you say?**
 
-> Your answer here.
+>fork is taking a copy of someone's repostiory into your own repository to change and make a request to merge the new features.
+clone is cloning someone's repository into your own device
+origin is the default naming for a remote and is the remote name used when you clone a reopsitory.
+upstream is a branch from remote reopsitory equivalent to your local branch in the device , it is required to have an upstream branch when you have changes in the local repository branch.
