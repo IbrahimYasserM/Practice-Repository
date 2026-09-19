@@ -14,18 +14,17 @@ revision.
 **1. What branch naming convention does this project use? Give an example
 branch name you plan to use.**
 
-> Your answer here.
+> docs/add-Wafaa-Atef.
 
 **2. What commit message format is required? Write the exact commit message
 you plan to use for your change.**
 
-> Your answer here.
+> docs: add wafaa atef to contributors list.
 
 **3. Does this project expect a linked issue before opening a PR, or is a PR
 description enough?**
 
-> Your answer here.
-
+> yes expects
 ---
 
 ## Part 2 — After forking and cloning
@@ -33,8 +32,12 @@ description enough?**
 **4. Paste the output of `git remote -v` from your local clone. Which remote
 is `origin` and which is `upstream`, and why does that distinction matter?**
 
-> Your answer here.
-
+> PS D:\Docs\OSS\First task\Practice-Repository> git remote -v
+>origin  https://github.com/WafaaAtef/Practice-Repository.git (fetch)
+>origin  https://github.com/WafaaAtef/Practice-Repository.git (push)
+>upstream        https://github.com/IbrahimYasserM/Practice-Repository.git (fetch)
+>upstream        https://github.com/IbrahimYasserM/Practice-Repository.git (push) 
+>origin >forked , upstream>original  
 ---
 
 ## Part 3 — After making your change
@@ -42,7 +45,30 @@ is `origin` and which is `upstream`, and why does that distinction matter?**
 **5. Paste the output of `git log --oneline -3`. Do your commit message(s)
 follow the convention from `CONTRIBUTING.md`?**
 
-> Your answer here.
+> 140249f (HEAD -> docs/add-Wafaa-Atef) docs: conflict resolved
+e391163 docs: add wafaa atef to contributors list
+983499c (upstream/conflict-practice) Add Mohammed Nasser to CONTRIBUTORS.md
+:...skipping...
+140249f (HEAD -> docs/add-Wafaa-Atef) docs: conflict resolved
+e391163 docs: add wafaa atef to contributors list
+983499c (upstream/conflict-practice) Add Mohammed Nasser to CONTRIBUTORS.md
+~
+~
+~
+~
+~
+(END)...skipping...
+140249f (HEAD -> docs/add-Wafaa-Atef) docs: conflict resolved
+e391163 docs: add wafaa atef to contributors list
+983499c (upstream/conflict-practice) Add Mohammed Nasser to CONTRIBUTORS.md
+~
+~
+~
+~
+~
+~
+~
+(END)
 
 ---
 
@@ -50,11 +76,12 @@ follow the convention from `CONTRIBUTING.md`?**
 
 **6. What caused the conflict? Which file and lines were involved?**
 
-> Your answer here.
+> Adding Mohammed nasser data at the same line of my data ,
+>file : CONTRIBUTORS.md  , line : 12
 
 **7. How did you resolve it — what did you keep, remove, or combine, and why?**
 
-> Your answer here.
+> combined , making alist 
 
 ---
 
@@ -63,8 +90,8 @@ follow the convention from `CONTRIBUTING.md`?**
 **8. Paste your PR link. How many commits and how many files changed does
 your PR show?**
 
-> Your answer here.
-
+> link : gh pr checkout 26
+> files changed : 2 files , commits :4 commits
 ---
 
 ## Part 6 — Final reflection
@@ -72,10 +99,11 @@ your PR show?**
 **9. What's one thing about this workflow that surprised you, confused you,
 or felt different from what you expected going in?**
 
-> Your answer here.
+> dealing with upstram.
 
 **10. If a teammate asked you to explain the difference between `fork`,
 `clone`, `origin`, and `upstream` in one or two sentences each, what would
 you say?**
 
-> Your answer here.
+> a fork is a copy from original repo ,clone is fetching the local repo from github
+>origin the remote repo from your forked version ,upstream the remote repo from original version 
