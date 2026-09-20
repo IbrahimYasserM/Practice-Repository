@@ -14,17 +14,23 @@ revision.
 **1. What branch naming convention does this project use? Give an example
 branch name you plan to use.**
 
-> Your answer here.
+> "  type / short-description"
+> Where `<type>` is one of: `feature`, `fix`, `docs`, `chore`.
+> e.g. docs/add-yomna
+
 
 **2. What commit message format is required? Write the exact commit message
 you plan to use for your change.**
 
-> Your answer here.
+> "type>: short summary"
+
+> "optional longer description"
+> e.g. docs: add name to contributors list
 
 **3. Does this project expect a linked issue before opening a PR, or is a PR
 description enough?**
 
-> Your answer here.
+> The project expects a related task/issue to be linked in the PR description.
 
 ---
 
@@ -33,7 +39,10 @@ description enough?**
 **4. Paste the output of `git remote -v` from your local clone. Which remote
 is `origin` and which is `upstream`, and why does that distinction matter?**
 
-> Your answer here.
+> origin  https://github.com/YOMNA-MAHSOOB/Practice-Repository (fetch)
+> origin  https://github.com/YOMNA-MAHSOOB/Practice-Repository (push)
+> upstream        https://github.com/IbrahimYasserM/Practice-Repository (fetch)
+> upstream        https://github.com/IbrahimYasserM/Practice-Repository (push)
 
 ---
 
@@ -42,7 +51,10 @@ is `origin` and which is `upstream`, and why does that distinction matter?**
 **5. Paste the output of `git log --oneline -3`. Do your commit message(s)
 follow the convention from `CONTRIBUTING.md`?**
 
-> Your answer here.
+> 2a98d01 (HEAD -> docs/add-yomna, origin/docs/add-yomna) docs: add name to contributors list
+> 3b30f00 (upstream/main, origin/main, origin/HEAD, main) Clarify task labeling in README
+> f5ecf54 Revise task assignment instructions in README
+>  Yes. My commit message follows the Conventional Commits format and uses the `docs` type
 
 ---
 
@@ -50,11 +62,11 @@ follow the convention from `CONTRIBUTING.md`?**
 
 **6. What caused the conflict? Which file and lines were involved?**
 
-> Your answer here.
+> The conflict was caused by both my branch and upstream/conflict-practice modifying the same part of CONTRIBUTORS.md. The conflict involved the lines where the contributors were being added.
 
 **7. How did you resolve it — what did you keep, remove, or combine, and why?**
 
-> Your answer here.
+> I removed the <<<<<<<, =======, and >>>>>>> conflict markers
 
 ---
 
@@ -63,7 +75,7 @@ follow the convention from `CONTRIBUTING.md`?**
 **8. Paste your PR link. How many commits and how many files changed does
 your PR show?**
 
-> Your answer here.
+> [Your answer here.](https://github.com/IbrahimYasserM/Practice-Repository/pull/4)
 
 ---
 
@@ -72,10 +84,16 @@ your PR show?**
 **9. What's one thing about this workflow that surprised you, confused you,
 or felt different from what you expected going in?**
 
-> Your answer here.
+> contributions.md , questions.md
 
 **10. If a teammate asked you to explain the difference between `fork`,
 `clone`, `origin`, and `upstream` in one or two sentences each, what would
 you say?**
 
-> Your answer here.
+> fork: A fork is my own copy of a GitHub repository on my GitHub account.
+
+> clone: A clone is a local copy of a repository on my computer that I can work on.
+
+> origin: origin is the remote repository my local project is connected to, which in this workflow is my fork.
+
+> upstream: upstream is the remote pointing to the original repository, which allows me to fetch updates and branches from it.
