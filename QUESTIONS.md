@@ -14,17 +14,17 @@ revision.
 **1. What branch naming convention does this project use? Give an example
 branch name you plan to use.**
 
-> Your answer here.
+> "type"/"short-description".
 
 **2. What commit message format is required? Write the exact commit message
 you plan to use for your change.**
 
-> Your answer here.
+> docs: adding my name and answering questions.
 
 **3. Does this project expect a linked issue before opening a PR, or is a PR
 description enough?**
 
-> Your answer here.
+> yes.
 
 ---
 
@@ -33,7 +33,9 @@ description enough?**
 **4. Paste the output of `git remote -v` from your local clone. Which remote
 is `origin` and which is `upstream`, and why does that distinction matter?**
 
-> Your answer here.
+> me --> origin.
+> eng.yasser --> upstream.
+> to make a copy file which i can edit it 
 
 ---
 
