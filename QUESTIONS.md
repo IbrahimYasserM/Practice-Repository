@@ -14,17 +14,17 @@ revision.
 **1. What branch naming convention does this project use? Give an example
 branch name you plan to use.**
 
-> Your answer here.
+> it is <type> then description like docs/add-my-name
 
 **2. What commit message format is required? Write the exact commit message
 you plan to use for your change.**
 
-> Your answer here.
+> <type>:description docs: add name to contributors list
 
 **3. Does this project expect a linked issue before opening a PR, or is a PR
 description enough?**
 
-> Your answer here.
+> yes description is not enough
 
 ---
 
@@ -33,7 +33,14 @@ description enough?**
 **4. Paste the output of `git remote -v` from your local clone. Which remote
 is `origin` and which is `upstream`, and why does that distinction matter?**
 
-> Your answer here.
+> origin	git@github.com:Marwa-221b/Practice-Repository.git (fetch)
+origin	git@github.com:Marwa-221b/Practice-Repository.git (push)
+upstream	git@github.com:IbrahimYasserM/Practice-Repository.git (fetch)
+upstream	git@github.com:IbrahimYasserM/Practice-Repository.git (push)
+
+origin is my fork and upstream is original repo
+
+the differnece is i will push my work to origin and pull any updates from original (upstream)
 
 ---
 
@@ -42,20 +49,22 @@ is `origin` and which is `upstream`, and why does that distinction matter?**
 **5. Paste the output of `git log --oneline -3`. Do your commit message(s)
 follow the convention from `CONTRIBUTING.md`?**
 
-> Your answer here.
+> 01e5a51 (HEAD -> docs/add-my-name) Merge remote-tracking branch 'upstream/conflict-practice' into docs/add-my-name
+6c68156 (origin/docs/add-my-name) docs: add name to contributors list
+983499c (upstream/conflict-practice) Add Mohammed Nasser to CONTRIBUTORS.md
 
+yes it follows it excepting merge one :) 
 ---
 
 ## Part 4 — After hitting the seeded merge conflict
 
 **6. What caused the conflict? Which file and lines were involved?**
 
-> Your answer here.
+> CONTRIBUTORS File and the line that me and nasser edit in .
 
 **7. How did you resolve it — what did you keep, remove, or combine, and why?**
 
-> Your answer here.
-
+> i keep both updates , remove conflicts marks and combining the names to follow alphaptic format and why because we want keep both updates 
 ---
 
 ## Part 5 — After opening your PR
@@ -63,8 +72,9 @@ follow the convention from `CONTRIBUTING.md`?**
 **8. Paste your PR link. How many commits and how many files changed does
 your PR show?**
 
-> Your answer here.
+> https://github.com/IbrahimYasserM/Practice-Repository/pull/18
 
+The PR shows 4 commits and 2 files changed.
 ---
 
 ## Part 6 — Final reflection
@@ -72,10 +82,13 @@ your PR show?**
 **9. What's one thing about this workflow that surprised you, confused you,
 or felt different from what you expected going in?**
 
-> Your answer here.
+> merge conflict.
 
 **10. If a teammate asked you to explain the difference between `fork`,
 `clone`, `origin`, and `upstream` in one or two sentences each, what would
 you say?**
 
-> Your answer here.
+> fork is taking a copy of repo in my github
+   clone is making this project locally in the device
+   origin is the repo that i can push to it after fork
+   upstream is the original repo that i made fork from it
