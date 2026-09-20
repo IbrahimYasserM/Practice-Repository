@@ -87,7 +87,8 @@ your PR show?**
 [the link](https://github.com/IbrahimYasserM/Practice-Repository/pull/2)
 7 commits (i forgot to add the meeting minutes, and account for two extra commits of editing lol)
 3 files changed (QUESTIONS.md, CONTRIBUTORS.md, and meeting-minutes.md)
-note that its about to change since pr template was changed and this should be the 5th commit now
+
+> sorry, perfectionism :(
 
 ---
 
