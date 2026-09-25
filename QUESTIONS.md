@@ -15,16 +15,19 @@ revision.
 branch name you plan to use.**
 
 > Your answer here.
+it uses type/description convention, example: docs/my-contributer-name
 
 **2. What commit message format is required? Write the exact commit message
 you plan to use for your change.**
 
 > Your answer here.
+type: description, example: docs: added my name to the list
 
 **3. Does this project expect a linked issue before opening a PR, or is a PR
 description enough?**
 
 > Your answer here.
+yes it expects a linked issue or a task to my pr
 
 ---
 
@@ -34,6 +37,14 @@ description enough?**
 is `origin` and which is `upstream`, and why does that distinction matter?**
 
 > Your answer here.
+```
+origin  git@github.com:zyad-elkhewekh/Practice-Repository.git (fetch)
+origin  git@github.com:zyad-elkhewekh/Practice-Repository.git (push)
+upstream        git@github.com:IbrahimYasserM/Practice-Repository.git (fetch)
+upstream        git@github.com:IbrahimYasserM/Practice-Repository.git (push)
+```
+`origin` remote is my forked clone and `upstream` is the original,
+the distinction matters to allow me to get other changes from the original (aka other peoples forks' changes from their locals) and keep my changes safe
 
 ---
 
@@ -43,6 +54,12 @@ is `origin` and which is `upstream`, and why does that distinction matter?**
 follow the convention from `CONTRIBUTING.md`?**
 
 > Your answer here.
+```
+cccde0e (HEAD -> docs/my-contributer-name) docs: added my name to the list
+3b30f00 (origin/main, origin/HEAD, main) Clarify task labeling in README
+f5ecf54 Revise task assignment instructions in README
+```
+yes they do follow
 
 ---
 
@@ -51,10 +68,13 @@ follow the convention from `CONTRIBUTING.md`?**
 **6. What caused the conflict? Which file and lines were involved?**
 
 > Your answer here.
+CONTRIBUTORS.md caused the conflict due to a name being inserted at the end where i originally inserted mine
 
 **7. How did you resolve it — what did you keep, remove, or combine, and why?**
 
 > Your answer here.
+all i had to do was keep both new names (Mohammed Nasser and me) and remove gits warning text
+techincally a combine not keep
 
 ---
 
@@ -64,6 +84,11 @@ follow the convention from `CONTRIBUTING.md`?**
 your PR show?**
 
 > Your answer here.
+[the link](https://github.com/IbrahimYasserM/Practice-Repository/pull/2)
+7 commits (i forgot to add the meeting minutes, and account for two extra commits of editing lol)
+3 files changed (QUESTIONS.md, CONTRIBUTORS.md, and meeting-minutes.md)
+
+> sorry, perfectionism :(
 
 ---
 
@@ -73,9 +98,14 @@ your PR show?**
 or felt different from what you expected going in?**
 
 > Your answer here.
+being forced to link the original repo beside my fork :) im not used to doing it but i realise how much easier it would have made my life.
 
 **10. If a teammate asked you to explain the difference between `fork`,
 `clone`, `origin`, and `upstream` in one or two sentences each, what would
 you say?**
 
 > Your answer here.
+`fork` is a remote copy of some repo but linked to my account, meaning im the owner and have push access to this copy.
+`clone` is *local* copy of some repo, it can be a repo i own, some fork of another repo, or another repo altogether.
+`origin` is the default name for a remote to a local repo i have and own.
+while `upstream` is a usual naming convention for a remote to a repo that idont own, i may have forked it but i need to fetch changes from the original to ensure clean working.
