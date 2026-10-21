@@ -14,17 +14,19 @@ revision.
 **1. What branch naming convention does this project use? Give an example
 branch name you plan to use.**
 
-> Your answer here.
+> <type>/<short-description> 
+Example : docs/add-my-name
 
 **2. What commit message format is required? Write the exact commit message
 you plan to use for your change.**
 
-> Your answer here.
+> Conventional Commits 
+Example docs: add my name to contributors list
 
 **3. Does this project expect a linked issue before opening a PR, or is a PR
 description enough?**
 
-> Your answer here.
+> i don't think so 
 
 ---
 
@@ -33,8 +35,10 @@ description enough?**
 **4. Paste the output of `git remote -v` from your local clone. Which remote
 is `origin` and which is `upstream`, and why does that distinction matter?**
 
-> Your answer here.
-
+> origin  https://github.com/fatma-khaledd/Practice-Repository.git (fetch)
+origin  https://github.com/fatma-khaledd/Practice-Repository.git (push)
+upstream        https://github.com/IbrahimYasserM/Practice-Repository (fetch)
+upstream        https://github.com/IbrahimYasserM/Practice-Repository (push)
 ---
 
 ## Part 3 — After making your change
@@ -42,8 +46,11 @@ is `origin` and which is `upstream`, and why does that distinction matter?**
 **5. Paste the output of `git log --oneline -3`. Do your commit message(s)
 follow the convention from `CONTRIBUTING.md`?**
 
-> Your answer here.
-
+> origin  https://github.com/fatma-khaledd/Practice-Repository.git (fetch)
+origin  https://github.com/fatma-khaledd/Practice-Repository.git (push)
+upstream        https://github.com/ORIGINAL-OWNER/REPO-NAME.git (fetch)
+upstream        https://github.com/ORIGINAL-OWNER/REPO-NAME.git (push)
+yes , it's
 ---
 
 ## Part 4 — After hitting the seeded merge conflict
